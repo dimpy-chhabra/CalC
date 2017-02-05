@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">0sp</item>
+        <item name="android:layout_height">50sp</item>
+        <item name="android:background">@drawable/ripple_effect</item>
+        <item name="android:layout_column">4</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:layout_row">3</item>
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
